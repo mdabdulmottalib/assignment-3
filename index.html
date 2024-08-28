@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="py-5 bg-white sticky top-0 left-0 right-0 z-50">
+      <div
+        class="flex mx-auto justify-between items-center w-11/12 xl:w-[1250px]"
+      >
+        <div class="flex items-center gap-5">
+          <div
+            class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+          >
+            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+          </div>
+          <h2 class="font-extrabold text-[28px]">Rinterio</h2>
+        </div>
+        <nav
+          class="absolute xl:static xl:top-0 xl:left-0 xl:block top-20 left-0 hidden"
+        >
+          <ul class="xl:flex xl:gap-5 xl:text-[16px] xl:font-extrabold">
+            <li><a class="text-[#494949]" href="#">Home</a></li>
+            <li><a class="text-[#737373]" href="#">Services</a></li>
+            <li><a class="text-[#737373]" href="#">Portfolio</a></li>
+            <li><a class="text-[#737373]" href="#">Blog</a></li>
+            <li><a class="text-[#737373]" href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="hidden md:flex md:items-center md:gap-5">
+          <div
+            class="bg-white border size-10 rounded-full flex items-center justify-center shadow-sm"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div
+            class="bg-white border size-10 rounded-full flex items-center justify-center shadow-sm"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div>
+            <button
+              class="w-full text-[16px] px-[20px] py-2 rounded-full bg-[#ABEF5F] text-xl font-extrabold flex items-center justify-center gap-3"
+            >
+              <div>
+                <span>Get a Quote</span>
+              </div>
+              <div
+                class="bg-[#000] text-white size-6 rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-up-long text-sm rotate-45"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="md:hidden">
+          <button
+            class="size-10 flex border border-[#E9E9E9] items-center justify-center rounded-full bg-white"
+          >
+            <i class="fa-solid fa-bars text-[#737373] text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="bg-white py-10 md:pb-20">
+      <div class="flex mx-auto w-10/12 md:w-[705px] xl:w-[1250px]">
+        <div class="flex flex-col gap-5 text-center w-full md:items-center">
+          <div>
+            <img src="assets/banner.png" alt="Modern Barn House" />
+          </div>
+          <div>
+            <h2
+              class="font-extrabold text-[28px] md:text-4xl xl:text-[64px] xl:leading-[4.5rem]"
+            >
+              Redefining Modern Rustic Living
+            </h2>
+          </div>
+          <div>
+            <p class="text-[14px] font-medium md:text-[16px] md:px-5 xl:px-40">
+              Discover a harmonious blend of rustic charm and contemporary
+              elegance, where timeless design meets modern comfort.
+            </p>
+          </div>
+          <div class="w-full md:flex md:justify-center">
+            <button
+              class="flex bg-[#ABEF5F] bg-opacity-50 border border-[#ABEF5F] w-full justify-center items-center gap-4 rounded-full py-[10px] md:px-8 md:w-auto"
+            >
+              <span class="font-bold text-[20px]">View Details</span>
+              <div
+                class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="mt-10 md:mt-20 xl:hidden">
+      <div class="flex mx-auto w-10/12 md:w-[705px] xl:w-[1250px]">
+        <div class="">
+          <div
+            class="flex flex-col items-center text-center rounded-full px-6 py-2 gap-5 md:px-0"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-white font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>About Us</span>
+              </h2>
+            </div>
+            <h3 class="font-bold text-2xl text-[#212121] md:text-[32px]">
+              Crafting Spaces with Heart and Soul
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] md:text-[16px]">
+              Our designs bring warmth and character to your home, balancing
+              tradition with modernity for a space you'll love.
+            </p>
+          </div>
+          <div class="mt-5">
+            <div class="flex flex-col gap-5 md:grid md:grid-cols-2">
+              <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+                <div>
+                  <div>
+                    <img
+                      class="w-20"
+                      src="assets/commercial.png"
+                      alt="Commercial Projects"
+                    />
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <div>
+                    <h3 class="text-[16px] font-extrabold text-[#494949]">
+                      Commercial Excellence
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373]">
+                      Delivering innovative solutions for modern commercial
+                      spaces, with a focus on functionality and style.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+                <div>
+                  <div>
+                    <img
+                      class="w-20"
+                      src="assets/commercial.png"
+                      alt="Residential Projects"
+                    />
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <div>
+                    <h3 class="text-[16px] font-extrabold text-[#494949]">
+                      Residential Retreats
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373]">
+                      Creating inviting residential spaces that blend comfort
+                      and style, tailored to your lifestyle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="md:col-span-full">
+                <img
+                  src="assets/Rectangle.png"
+                  class="w-full h-[223px] md:h-[385px] object-cover object-center rounded-2xl"
+                  alt="Design Showcase"
+                />
+              </div>
+
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex gap-5 md:col-span-full md:p-10"
+              >
+                <div
+                  class="flex flex-col items-center w-full gap-5 md:grid md:grid-cols-2 md:gap-10"
+                >
+                  <div class="flex flex-col items-center">
+                    <div>
+                      <i
+                        class="fa-regular fa-message text-3xl text-[#494949]"
+                      ></i>
+                    </div>
+                    <h2 class="text-[32px] font-extrabold text-[#494949]">
+                      300+
+                    </h2>
+                    <p class="text-[#737373] font-medium text-[16px]">
+                      Satisfied Clients
+                    </p>
+                  </div>
+
+                  <div class="flex flex-col items-center">
+                    <div>
+                      <i
+                        class="fa-regular fa-message text-3xl text-[#494949]"
+                      ></i>
+                    </div>
+                    <h2 class="text-[32px] font-extrabold text-[#494949]">
+                      150+
+                    </h2>
+                    <p class="text-[#737373] font-medium text-[16px]">
+                      Projects Completed
+                    </p>
+                  </div>
+
+                  <div class="flex flex-col items-center">
+                    <div>
+                      <i
+                        class="fa-regular fa-message text-3xl text-[#494949]"
+                      ></i>
+                    </div>
+                    <h2 class="text-[32px] font-extrabold text-[#494949]">
+                      50+
+                    </h2>
+                    <p class="text-[#737373] font-medium text-[16px]">
+                      Awards Won
+                    </p>
+                  </div>
+
+                  <div class="flex flex-col items-center">
+                    <div>
+                      <i
+                        class="fa-regular fa-message text-3xl text-[#494949]"
+                      ></i>
+                    </div>
+                    <h2 class="text-[32px] font-extrabold text-[#494949]">
+                      10+
+                    </h2>
+                    <p class="text-[#737373] font-medium text-[16px]">
+                      Years in Business
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section Desktop start -->
+
+    <section class="mt-10 md:mt-20 hidden xl:block xl:relative">
+      <div class="absolute left-64 -top-12 hidden xl:block">
+        <img src="assets/Vector.png" alt="Decorative Graphic" />
+      </div>
+
+      <div class="flex mx-auto w-10/12 md:w-[705px] xl:w-[1250px]">
+        <div
+          class="xl:grid xl:grid-cols-2 xl:grid-rows-[200px_260px_1fr] xl:gap-8 xl:row-start-1"
+        >
+          <div
+            class="flex flex-col items-center text-center rounded-full px-6 py-2 gap-5 md:px-0 xl:col-start-1 xl:col-end-2 xl:items-start xl:text-start"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-white font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>About Us</span>
+              </h2>
+            </div>
+            <h3 class="font-bold text-2xl text-[#212121] md:text-[32px]">
+              Crafting Spaces with Heart and Soul
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] md:text-[16px]">
+              Our designs bring warmth and character to your home, balancing
+              tradition with modernity for a space you'll love.
+            </p>
+          </div>
+
+          <div
+            class="xl:rowst2 xl:col-start-1 xl:col-end-2 xl:flex xl:flex-col xl:justify-between"
+          >
+            <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+              <div>
+                <div>
+                  <img
+                    class="w-20"
+                    src="assets/commercial.png"
+                    alt="Commercial Projects"
+                  />
+                </div>
+              </div>
+              <div class="space-y-2">
+                <div>
+                  <h3 class="text-[16px] font-extrabold text-[#494949]">
+                    Commercial Excellence
+                  </h3>
+                </div>
+                <div>
+                  <p class="text-[#737373]">
+                    Delivering innovative solutions for modern commercial
+                    spaces, with a focus on functionality and style.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+              <div>
+                <div>
+                  <img
+                    class="w-20"
+                    src="assets/commercial.png"
+                    alt="Residential Projects"
+                  />
+                </div>
+              </div>
+              <div class="space-y-2">
+                <div>
+                  <h3 class="text-[16px] font-extrabold text-[#494949]">
+                    Residential Retreats
+                  </h3>
+                </div>
+                <div>
+                  <p class="text-[#737373]">
+                    Creating inviting residential spaces that blend comfort and
+                    style, tailored to your lifestyle.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="xl:col-start-2 xl:col-end-3 xl:row-start-1 xl:row-end-3">
+            <img
+              src="assets/Rectangle.png"
+              class="w-full h-[223px] md:h-[385px] xl:h-full object-cover object-center rounded-2xl"
+              alt="Design Showcase"
+            />
+          </div>
+
+          <div
+            class="bg-white p-5 rounded-2xl shadow-sm flex gap-5 md:col-span-full md:p-10 xl:mt-14"
+          >
+            <div
+              class="flex flex-col items-center w-full gap-5 md:grid md:grid-cols-2 md:gap-10 xl:grid-cols-4"
+            >
+              <div class="flex flex-col items-center">
+                <div>
+                  <i class="fa-regular fa-message text-3xl text-[#494949]"></i>
+                </div>
+                <h2 class="text-[32px] font-extrabold text-[#494949]">300+</h2>
+                <p class="text-[#737373] font-medium text-[16px]">
+                  Satisfied Clients
+                </p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div>
+                  <i class="fa-regular fa-message text-3xl text-[#494949]"></i>
+                </div>
+                <h2 class="text-[32px] font-extrabold text-[#494949]">150+</h2>
+                <p class="text-[#737373] font-medium text-[16px]">
+                  Projects Completed
+                </p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div>
+                  <i class="fa-regular fa-message text-3xl text-[#494949]"></i>
+                </div>
+                <h2 class="text-[32px] font-extrabold text-[#494949]">50+</h2>
+                <p class="text-[#737373] font-medium text-[16px]">Awards Won</p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div>
+                  <i class="fa-regular fa-message text-3xl text-[#494949]"></i>
+                </div>
+                <h2 class="text-[32px] font-extrabold text-[#494949]">10+</h2>
+                <p class="text-[#737373] font-medium text-[16px]">
+                  Years in Business
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Desktop end -->
+
+    <!-- How We work section -->
+    <section class="mt-10 md:mt-20">
+      <div class="flex mx-auto w-10/12 md:w-[705px] xl:w-[1250px]">
+        <div>
+          <div
+            class="flex flex-col items-center text-center rounded-full px-6 py-2 gap-5"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-white font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>Our Process</span>
+              </h2>
+            </div>
+            <h3
+              class="font-bold text-2xl md:text-[32px] xl:text-[40px] text-[#212121]"
+            >
+              How We Work
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] xl:px-72">
+              From concept to completion, we deliver exceptional results through
+              a clear and collaborative process.
+            </p>
+          </div>
+
+          <div class="mt-5">
+            <div
+              class="flex flex-col gap-5 md:grid md:grid-cols-2 xl:grid-cols-4"
+            >
+              <div
+                class="bg-[#E7C1D3] p-5 rounded-2xl shadow-sm flex flex-col gap-2"
+              >
+                <div>
+                  <div>
+                    <img
+                      class="w-14"
+                      src="assets/lightbulb 1.svg"
+                      alt="Concept"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="text-xl font-extrabold text-[#1c1c1c]">Concept</h3>
+                </div>
+                <div>
+                  <p class="text-[#494949] text-[16px] font-medium">
+                    We start with your vision and create a clear and creative
+                    concept that aligns with your goals.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-[#EFDA6E] p-5 rounded-2xl shadow-sm flex flex-col gap-2"
+              >
+                <div>
+                  <div>
+                    <img
+                      class="w-14"
+                      src="assets/flow-chart 1.svg"
+                      alt="Design Process"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="text-xl font-extrabold text-[#1c1c1c]">
+                    Design Process
+                  </h3>
+                </div>
+                <div>
+                  <p class="text-[#494949] text-[16px] font-medium">
+                    Our team translates the concept into detailed designs,
+                    ensuring every element is perfect.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-[#A4DAC3] p-5 rounded-2xl shadow-sm flex flex-col gap-2"
+              >
+                <div>
+                  <div>
+                    <img
+                      class="w-14"
+                      src="assets/Group 5.svg"
+                      alt="Supervision"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="text-xl font-extrabold text-[#1c1c1c]">
+                    Supervision
+                  </h3>
+                </div>
+                <div>
+                  <p class="text-[#494949] text-[16px] font-medium">
+                    We oversee every step of the project, ensuring quality
+                    control and seamless execution.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-[#77AAEA] p-5 rounded-2xl shadow-sm flex flex-col gap-2"
+              >
+                <div>
+                  <div>
+                    <img
+                      class="w-14"
+                      src="assets/budget-planning 1.svg"
+                      alt="Budget Planning"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="text-xl font-extrabold text-[#1c1c1c]">
+                    Budget Planning
+                  </h3>
+                </div>
+                <div>
+                  <p class="text-[#494949] text-[16px] font-medium">
+                    We work within your budget to deliver the best value without
+                    compromising on quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Explore our latest works section -->
+    <section class="mt-10 md:mt-20">
+      <div class="flex mx-auto w-10/12 md:w-[705px] xl:w-[1250px]">
+        <div class="w-full">
+          <div
+            class="flex flex-col items-center text-center rounded-full px-6 py-2 gap-5"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-[#ABEF5F] bg-opacity-20 font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>Our Portfolio</span>
+              </h2>
+            </div>
+            <h3
+              class="font-bold text-2xl text-[#212121] md:text-[32px] xl:text-[40px]"
+            >
+              Latest Projects
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] xl:px-72">
+              Take a look at some of our recent work, showcasing our commitment
+              to excellence and innovative design.
+            </p>
+          </div>
+          <div class="mt-5">
+            <div
+              class="flex flex-col gap-5 md:grid md:grid-cols-2 xl:grid-cols-4"
+            >
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex flex-col gap-5 md:col-span-full md:flex-row xl:col-span-3"
+              >
+                <div>
+                  <img
+                    class="w-full h-full xl:w-72"
+                    src="assets/img1.png"
+                    alt="Project 1"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <div>
+                    <h3 class="text-xl font-extrabold text-[#494949]">
+                      Urban Loft
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373] text-[16px] font-medium">
+                      A contemporary loft space featuring minimalist design with
+                      industrial accents and open spaces.
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-5">
+                    <div>
+                      <span class="font-extrabold text-[16px]"
+                        >View Details</span
+                      >
+                    </div>
+                    <div
+                      class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+                <div class="w-full">
+                  <img
+                    class="h-[197px] w-full object-cover object-center rounded-xl"
+                    src="assets/img2.png"
+                    alt="Project 2"
+                  />
+                </div>
+              </div>
+
+              <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+                <div class="w-full">
+                  <img
+                    class="h-[197px] w-full object-cover object-center rounded-xl"
+                    src="assets/img5.png"
+                    alt="Project 3"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex flex-col gap-5 md:col-span-full md:flex-row xl:col-span-2 xl:grid-cols-[18rem_1fr]"
+              >
+                <div>
+                  <img
+                    class="w-full h-full xl:w-72"
+                    src="assets/img4.png"
+                    alt="Project 4"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <div>
+                    <h3 class="text-xl font-extrabold text-[#494949]">
+                      Coastal Escape
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373] text-[16px] font-medium">
+                      A serene beachfront property that blends natural materials
+                      with luxury finishes.
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-5">
+                    <div>
+                      <span class="font-extrabold text-[16px]"
+                        >View Details</span
+                      >
+                    </div>
+                    <div
+                      class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white p-5 rounded-2xl shadow-sm flex gap-5">
+                <div class="w-full">
+                  <img
+                    class="h-[197px] w-full object-cover object-center rounded-xl"
+                    src="assets/img3.png"
+                    alt="Project 5"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex gap-5 xl:hidden"
+              >
+                <div class="w-full">
+                  <img
+                    class="h-[197px] w-full object-cover object-center rounded-xl"
+                    src="assets/img5.png"
+                    alt="Project 6"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rinterio News -->
+    <section class="my-10 md:mt-20">
+      <div class="flex mx-auto w-11/12 md:w-[705px] xl:w-[1250px]">
+        <div class="w-full">
+          <div
+            class="flex flex-col items-center text-center rounded-full py-2 gap-5"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-[#ABEF5F] bg-opacity-20 font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>Latest News</span>
+              </h2>
+            </div>
+            <h3 class="font-bold text-2xl text-[#212121] xl:text-[40px]">
+              Stay Updated with Our Blog
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] md:px-14 xl:px-72">
+              Read our latest articles and insights on design trends, project
+              highlights, and industry news.
+            </p>
+          </div>
+          <div class="mt-5">
+            <div
+              class="flex flex-col gap-5 md:grid md:grid-cols-2 xl:grid-cols-3"
+            >
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex flex-col gap-5 md:col-span-full xl:col-span-1 xl:flex-col md:flex-row"
+              >
+                <div>
+                  <img
+                    class="w-full h-[191px] object-cover object-center rounded-2xl"
+                    src="assets/article1.png"
+                    alt="Blog Post 1"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <div class="flex gap-5">
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i
+                          class="fa-regular fa-calendar-days text-[#737373] text-xl"
+                        ></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >July 14, 2024</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i class="fa-solid fa-user text-[#737373] text-xl"></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >By Admin</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-extrabold text-[#494949]">
+                      Selecting the Perfect Furniture for Your Space
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373] text-[16px] font-medium">
+                      Learn how to choose furniture that complements your style
+                      and enhances the functionality of your home.
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <span class="font-extrabold text-[16px]">Read More</span>
+                    </div>
+                    <div
+                      class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex flex-col gap-5 md:col-span-full md:flex-row xl:col-span-1 xl:flex-col"
+              >
+                <div>
+                  <img
+                    class="w-full h-[191px] object-cover object-center rounded-2xl"
+                    src="assets/article2.png"
+                    alt="Blog Post 2"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <div class="flex gap-5">
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i
+                          class="fa-regular fa-calendar-days text-[#737373] text-xl"
+                        ></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >July 14, 2024</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i class="fa-solid fa-user text-[#737373] text-xl"></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >By Admin</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-extrabold text-[#494949]">
+                      Top Design Trends of 2024
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373] text-[16px] font-medium">
+                      Stay ahead of the curve with our guide to the hottest
+                      design trends of the year.
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <span class="font-extrabold text-[16px]">Read More</span>
+                    </div>
+                    <div
+                      class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-5 rounded-2xl shadow-sm flex flex-col gap-5 md:col-span-full md:flex-row xl:col-span-1 xl:flex-col"
+              >
+                <div>
+                  <img
+                    class="w-full h-[191px] object-cover object-center rounded-2xl"
+                    src="assets/article3.png"
+                    alt="Blog Post 3"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <div class="flex gap-5">
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i
+                          class="fa-regular fa-calendar-days text-[#737373] text-xl"
+                        ></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >July 14, 2024</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <div>
+                        <i class="fa-solid fa-user text-[#737373] text-xl"></i>
+                      </div>
+                      <div>
+                        <span class="font-medium text-[14px] text-[#737373]"
+                          >By Admin</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-extrabold text-[#494949]">
+                      Designing a Home Office that Inspires
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="text-[#737373] text-[16px] font-medium">
+                      Transform your workspace into a productive and inspiring
+                      environment with our expert tips.
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-3">
+                    <div>
+                      <span class="font-extrabold text-[16px]">Read More</span>
+                    </div>
+                    <div
+                      class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Connect Section -->
+    <section class="py-10 md:py-20 bg-[url(./assets/bg.jpg)]">
+      <div class="flex mx-auto w-11/12 md:w-[705px] xl:w-[1080px]">
+        <div class="w-full">
+          <div
+            class="flex flex-col items-center text-center rounded-full py-2 gap-5"
+          >
+            <div>
+              <h2
+                class="text-[#494949] px-4 py-2 rounded-full bg-[#ABEF5F] bg-opacity-20 font-bold text-[16px] space-x-2 shadow-sm"
+              >
+                <span><i class="fa-solid fa-arrow-up-long rotate-90"></i></span>
+                <span>Get in Touch</span>
+              </h2>
+            </div>
+            <h3 class="font-bold text-2xl text-[#212121] px-10 md:text-[32px]">
+              Let's Talk About Your Next Project
+            </h3>
+            <p class="font-medium text-[14px] text-[#494949] md:px-14 xl:px-72">
+              We're here to help you bring your vision to life. Contact us to
+              discuss your project and how we can collaborate.
+            </p>
+          </div>
+          <div class="mt-5">
+            <div>
+              <form class="flex flex-col gap-5 md:grid md:grid-cols-2">
+                <div>
+                  <input
+                    type="text"
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-full"
+                    placeholder="First Name*"
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-full"
+                    placeholder="Last Name*"
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-full"
+                    placeholder="Phone Number*"
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-full"
+                    placeholder="Email*"
+                  />
+                </div>
+
+                <div class="md:col-span-full">
+                  <textarea
+                    name=""
+                    id=""
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-3xl"
+                    placeholder="Your Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+
+                <div class="md:col-span-full">
+                  <button
+                    class="w-full text-[16px] px-[20px] py-[17px] rounded-full bg-[#ABEF5F] text-xl font-extrabold flex items-center justify-center gap-3"
+                  >
+                    <div>
+                      <span>Send Message</span>
+                    </div>
+                    <div
+                      class="bg-[#000] text-white size-10 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-[72px] bg-[#1C1C1C] border-b-2 border-[#464646]">
+      <div class="flex mx-auto w-11/12 md:w-[705px] xl:w-[1250px]">
+        <div class="w-full">
+          <div
+            class="flex flex-col items-center text-center rounded-full py-2 gap-5"
+          >
+            <div class="flex gap-4 items-center">
+              <div
+                class="bg-[#ABEF5F] size-10 rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+              </div>
+              <h2 class="font-extrabold text-[32px] text-white">Rinterio</h2>
+            </div>
+
+            <p class="font-medium text-[16px] text-[#494949] px-5 xl:px-72">
+              Redefining the art of interior design, blending timeless elegance
+              with modern innovation.
+            </p>
+          </div>
+          <div class="mt-5 xl:mt-10">
+            <div class="md:w-full md:flex md:items-center md:justify-center">
+              <ul
+                class="flex flex-col items-center text-white gap-5 md:flex-row"
+              >
+                <li class="text-[16px] font-medium"><a href="#">Home</a></li>
+                <li class="text-[16px] font-medium">
+                  <a href="#">Services</a>
+                </li>
+                <li class="text-[16px] font-medium">
+                  <a href="#">Portfolio</a>
+                </li>
+                <li class="text-[16px] font-medium"><a href="#">Blog</a></li>
+                <li class="text-[16px] font-medium">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-5 xl:mt-10">
+            <button
+              class="w-full text-[16px] px-[20px] py-[17px] rounded-full bg-[#ABEF5F] text-xl font-extrabold flex items-center justify-center gap-3 md:w-auto md:mx-auto"
+            >
+              <div>
+                <span>Get a Quote</span>
+              </div>
+              <div
+                class="bg-[#000] text-white size-10 rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
